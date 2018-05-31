@@ -27,8 +27,10 @@ __C.DATA.TRAIN_MAP_FILE = "train_img_file.txt"
 __C.DATA.TRAIN_ROI_FILE = "train_roi_file.txt"
 __C.DATA.TEST_MAP_FILE = "test_img_file.txt"
 __C.DATA.TEST_ROI_FILE = "test_roi_file.txt"
-__C.DATA.NUM_TRAIN_IMAGES = ch.getNumberOfTrainImages(__C.DATA.MAP_FILE_PATH)
-__C.DATA.NUM_TEST_IMAGES = ch.getNumberOfTestImages(__C.DATA.MAP_FILE_PATH)
+#__C.DATA.NUM_TRAIN_IMAGES = ch.getNumberOfTrainImages(__C.DATA.MAP_FILE_PATH)
+#__C.DATA.NUM_TEST_IMAGES = ch.getNumberOfTestImages(__C.DATA.MAP_FILE_PATH)
+__C.DATA.NUM_TRAIN_IMAGES = 10
+__C.DATA.NUM_TEST_IMAGES = 1
 __C.DATA.PROPOSAL_LAYER_SCALES = [4, 8, 12]
 
 # overwriting proposal parameters for Fast R-CNN

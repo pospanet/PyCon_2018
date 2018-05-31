@@ -40,7 +40,8 @@ __C.CNTK.MOMENTUM_PER_MB = 0.9
 __C.CNTK.BIAS_LR_MULT = 2.0
 
 # E2E learning parameters
-__C.CNTK.E2E_MAX_EPOCHS = 20
+#__C.CNTK.E2E_MAX_EPOCHS = 20
+__C.CNTK.E2E_MAX_EPOCHS = 5
 __C.CNTK.E2E_LR_PER_SAMPLE = [0.001] * 10 + [0.0001] * 10 + [0.00001]
 
 # 4-stage learning parameters (alternating training scheme)
@@ -51,8 +52,10 @@ __C.CNTK.FRCN_LR_PER_SAMPLE = [0.001] * 6 + [0.0001] * 2
 
 # Maximum number of ground truth annotations per image
 __C.INPUT_ROIS_PER_IMAGE = 100
-__C.IMAGE_WIDTH = 2118
-__C.IMAGE_HEIGHT = 2118
+#__C.IMAGE_WIDTH = 2118
+#__C.IMAGE_HEIGHT = 2118
+__C.IMAGE_WIDTH = 706
+__C.IMAGE_HEIGHT = 706
 
 # Sigma parameter for smooth L1 loss in the RPN and the detector (DET)
 __C.SIGMA_RPN_L1 = 3.0
