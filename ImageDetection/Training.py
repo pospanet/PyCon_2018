@@ -35,7 +35,7 @@ if __name__ == '__main__':
     print('Mean AP = {:.4f}'.format(np.nanmean(list(eval_results.values()))))
 
     # detect objects in single image
-    img_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), r"../DataSets/Grocery/testImages/WIN_20160803_11_28_42_Pro.jpg")
+    img_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), r"testImages/Page_23508.png")
     regressed_rois, cls_probs = od.evaluate_single_image(eval_model, img_path, cfg)
     bboxes, labels, scores = od.filter_results(regressed_rois, cls_probs, cfg)
 
