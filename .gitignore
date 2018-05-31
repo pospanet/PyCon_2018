@@ -4,6 +4,12 @@
 #Quick Draw RAW files
 *.ndjson
 
+#Mapping files
+[Dd]ataset/*.txt
+
+#PretrainedModel
+[Pp]retrained[Mm]odel/*.model
+
 # User-specific files
 *.suo
 *.user
