@@ -2,7 +2,7 @@
   "profiles": {
     "ImageGenerator": {
       "commandName": "Project",
-      "commandLineArgs": "-r 8 -c 8 -f C:\\Users\\pospa\\Projects\\!!!_Workshops_!!!\\PyCon\\dataset\\full_simplified_*.ndjson -o C:\\Users\\pospa\\Projects\\!!!_Workshops_!!!\\PyCon\\dataset\\out"
+      "commandLineArgs": "-r 8 -c 8 -f C:\\Users\\pospa\\Projects\\!!!_Workshops_!!!\\PyCon_2018\\DataSet\\raw\\full_simplified_*.ndjson -o C:\\Users\\pospa\\Projects\\!!!_Workshops_!!!\\PyCon_2018\\dataset\\positive"
     }
   }
 }

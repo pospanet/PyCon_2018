@@ -61,7 +61,7 @@ def _load_annotation(imgPath, class_dict):
 
 def create_mappings():
     abs_path = os.path.dirname(os.path.abspath(__file__))
-    data_set_path = os.path.join(abs_path, "../dataset")
+    data_set_path = os.path.join(abs_path, "../DataSet")
     class_dict = create_class_dict(data_set_path)
     create_map_files(data_set_path, class_dict, training_set=False)
     create_map_files(data_set_path, class_dict, training_set=True)

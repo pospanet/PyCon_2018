@@ -9,7 +9,7 @@ import os
 
 class UserDirectory:
     
-    def __init__(self, projectName, projectsDir = "Projects", datasetDir = "dataset"):
+    def __init__(self, projectName, projectsDir = "Projects", datasetDir = "DataSet"):
         self.projectName = projectName
         self.projectsDirectory = projectsDir
         self.datasetDirectory = datasetDir

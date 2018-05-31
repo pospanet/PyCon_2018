@@ -50,9 +50,9 @@ __C.CNTK.FRCN_EPOCHS = 8
 __C.CNTK.FRCN_LR_PER_SAMPLE = [0.001] * 6 + [0.0001] * 2
 
 # Maximum number of ground truth annotations per image
-__C.INPUT_ROIS_PER_IMAGE = 50
-__C.IMAGE_WIDTH = 850
-__C.IMAGE_HEIGHT = 850
+__C.INPUT_ROIS_PER_IMAGE = 100
+__C.IMAGE_WIDTH = 2118
+__C.IMAGE_HEIGHT = 2118
 
 # Sigma parameter for smooth L1 loss in the RPN and the detector (DET)
 __C.SIGMA_RPN_L1 = 3.0

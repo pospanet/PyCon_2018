@@ -131,7 +131,7 @@ def parse_class_map_file(class_map_file):
 
 if __name__ == '__main__':
     abs_path = os.path.dirname(os.path.abspath(__file__))
-    data_set_path = os.path.join(abs_path, "../../../DataSets/Grocery")
+    data_set_path = os.path.join(abs_path, "../../../DataSets")
 
     class_dict = create_class_dict(data_set_path)
     create_map_files(data_set_path, class_dict, training_set=True)

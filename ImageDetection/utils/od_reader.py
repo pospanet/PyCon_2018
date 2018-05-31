@@ -211,6 +211,9 @@ class ObjectDetectionReader:
         image_path = self._img_file_paths[index]
 
         img = self._read_image(image_path)
+        print('!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!')
+        print(image_path)
+        print(img)
         if self._img_stats[index] is None:
             self._prepare_annotations_proposals_and_stats(index, img)
 

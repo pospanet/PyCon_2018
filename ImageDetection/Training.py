@@ -17,13 +17,12 @@ def get_configuration():
     # for AlexNet base model use:       from utils.configs.AlexNet_config import cfg as network_cfg
     from utils.configs.AlexNet_config import cfg as network_cfg
     # for Pascal VOC 2007 data set use: from utils.configs.Pascal_config import cfg as dataset_cfg
-    # for the Grocery data set use:     from utils.configs.Grocery_config import cfg as dataset_cfg
-    from utils.configs.Grocery_config import cfg as dataset_cfg
+    from utils.configs.GoogleQuickDraw_config import cfg as dataset_cfg
 
-    return merge_configs([detector_cfg, network_cfg, dataset_cfg, {'DETECTOR': detector_name}])
+    return merge_configs([detector_cfg, network_cfg, dataset_cfg, {'DETECTOR': 'FasterRCNN'}])
 
 if __name__ == '__main__':
-    # Currently supported detectors: 'FastRCNN', 'FasterRCNN'
+    # Currently supported detectors: 'FasterRCNN'
     args = sys.argv
     cfg = get_configuration()
 
