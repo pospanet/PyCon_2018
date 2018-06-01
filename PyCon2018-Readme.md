@@ -28,7 +28,14 @@ pip install https://cntk.ai/PythonWheel/CPU-Only/cntk-2.5.1-cp35-cp35m-win_amd64
 python --version
 python -c "import cntk; print(cntk.__version__)"
 ```
-
+5. TensorFlow environment
+```powershell
+conda create -y -n pycon2018_tf Python=3.5
+activate pycon2018_tf
+conda install -c anaconda protobuf
+pip install pillow lxml Cython jupyter matplotlib pandas opencv-python
+pip install --ignore-installed --upgrade tensorflow
+```
 ## CNTK Run the lab
 ```powershell
 python ImageDetection\PrepareData.py

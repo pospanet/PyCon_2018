@@ -1,0 +1,45 @@
+item {
+  id: 1
+  name: 'airplane'
+}
+
+item {
+  id: 2
+  name: 'butterfly'
+}
+
+item {
+  id: 3
+  name: 'cup'
+}
+
+item {
+  id: 4
+  name: 'donut'
+}
+
+item {
+  id: 5
+  name: 'dumbbell'
+}
+
+item {
+  id: 6
+  name: 'eye'
+
+item {
+  id: 7
+  name: 'eyeglasses'
+
+item {
+  id: 8
+  name: 'fish'
+
+item {
+  id: 9
+  name: 'flower'
+
+item {
+  id: 10
+  name: 'hand'
+}
