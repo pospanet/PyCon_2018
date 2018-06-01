@@ -570,7 +570,7 @@ def train_model(image_input, roi_input, dims_input, loss, pred_error,
             data = od_minibatch_source.next_minibatch(min(cfg.MB_SIZE, cfg["DATA"].NUM_TRAIN_IMAGES-sample_count), input_map=input_map)
             trainer.train_minibatch(data)                                    # update model with it
             sample_count += trainer.previous_minibatch_sample_count          # count samples processed so far
-            progress_printer.update_with_trainer(trainer, with_metric=True)  # log progress
+            #progress_printer.update_with_trainer(trainer, with_metric=True)  # log progress
             if sample_count % 100 == 0:
                 continue
                 #print("Processed {} samples".format(sample_count))
