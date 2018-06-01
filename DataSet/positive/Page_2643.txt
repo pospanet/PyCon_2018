@@ -1,0 +1,9 @@
+eye	0	0	255	255
+eyeglasses	0	266	255	521
+flower	0	532	255	787
+cup	266	0	521	255
+butterfly	266	266	521	521
+airplane	266	532	521	787
+airplane	532	0	787	255
+butterfly	532	266	787	521
+dumbbell	532	532	787	787

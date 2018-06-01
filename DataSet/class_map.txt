@@ -1,0 +1,11 @@
+__background__	0
+fish	1
+eyeglasses	2
+cup	3
+eye	4
+butterfly	5
+hand	6
+flower	7
+airplane	8
+donut	9
+dumbbell	10

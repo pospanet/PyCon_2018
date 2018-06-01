@@ -5,11 +5,16 @@
 *.ndjson
 
 #Mapping files
-[Dd]ata[Ss]]et/*.txt
+[Dd]ata[Ss]]et/class*.txt
+[Dd]ata[Ss]]et/test*.txt
+[Dd]ata[Ss]]et/train.txt
 
 #Image files
-[Dd]ata[Ss]]et/
-DataSet/
+[Dd]ata[Ss]]et/*  
+![Dd]ata[Ss]]et/*.jpg  
+![Dd]ata[Ss]]et/*.jpeg  
+![Dd]ata[Ss]]et/*.png  
+![Dd]ata[Ss]]et/*.tsv  
 !PlaceHolder
 
 #PretrainedModel

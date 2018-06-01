@@ -34,8 +34,10 @@ if __name__ == '__main__':
     for class_name in eval_results: print('AP for {:>15} = {:.4f}'.format(class_name, eval_results[class_name]))
     print('Mean AP = {:.4f}'.format(np.nanmean(list(eval_results.values()))))
 
+
+
     # detect objects in single image
-    img_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), r"testImages/Page_23508.png")
+    img_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), r"testImages/Page_3333.png")
     regressed_rois, cls_probs = od.evaluate_single_image(eval_model, img_path, cfg)
     bboxes, labels, scores = od.filter_results(regressed_rois, cls_probs, cfg)
 

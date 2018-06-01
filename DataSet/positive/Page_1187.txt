@@ -1,0 +1,9 @@
+hand	0	0	255	255
+eyeglasses	0	266	255	521
+eye	0	532	255	787
+airplane	266	0	521	255
+eyeglasses	266	266	521	521
+hand	266	532	521	787
+eyeglasses	532	0	787	255
+eyeglasses	532	266	787	521
+eyeglasses	532	532	787	787

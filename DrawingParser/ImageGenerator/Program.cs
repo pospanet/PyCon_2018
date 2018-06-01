@@ -63,7 +63,7 @@ namespace ImageGenerator
                 }
 
                 string imagePath = Path.Combine(Path.GetFullPath(options.OutputPath),
-                    string.Concat("Page_", page, ".png"));
+                    string.Concat("Page_", page, ".jpg"));
                 string labelsPath = Path.Combine(Path.GetFullPath(options.OutputPath),
                     string.Concat("Page_", page, ".txt"));
                 if (options.Cntk)
@@ -108,7 +108,7 @@ namespace ImageGenerator
                     sw.Flush();
                 }
 
-                bmp.Save(imagePath, ImageFormat.Png);
+                bmp.Save(imagePath, ImageFormat.Jpeg);
             }
         }
 
